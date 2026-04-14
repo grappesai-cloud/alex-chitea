@@ -66,10 +66,6 @@ export default function Reel() {
                 <span className="text-[var(--accent)]">M/</span>{String(i + 1).padStart(2, "0")}
               </div>
             </div>
-            <figcaption className="mt-2 flex justify-between mono text-[14px] uppercase tracking-[0.28em] opacity-70">
-              <span>Clip {String(i + 1).padStart(2, "0")} / {String(CLIPS.length).padStart(2, "0")}</span>
-              <span className="italic-serif italic normal-case">in motion</span>
-            </figcaption>
           </figure>
         ))}
       </div>

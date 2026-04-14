@@ -8,7 +8,7 @@ export default function PullQuote() {
         <blockquote className="col-span-12 md:col-span-8 display italic text-[9vw] md:text-[5vw] leading-[1.02] tracking-[-0.025em] reveal">
           <span className="text-[var(--accent)]">&ldquo;</span>
           Posture is a language. Chițea speaks three dialects without raising
-          his voice — the hush of editorial, the clarity of commercial, the{" "}
+          his voice. The hush of editorial, the clarity of commercial, the{" "}
           <span className="italic-serif">pulse</span> of a runway.
           <span className="text-[var(--accent)]">&rdquo;</span>
         </blockquote>

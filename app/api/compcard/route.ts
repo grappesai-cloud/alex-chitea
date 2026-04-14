@@ -157,7 +157,8 @@ function Card() {
 }
 
 export async function GET() {
-  const buf = await renderToBuffer(Card() as React.ReactElement);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const buf = await renderToBuffer(Card() as any);
   return new Response(new Uint8Array(buf), {
     headers: {
       "Content-Type": "application/pdf",
