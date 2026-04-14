@@ -24,19 +24,33 @@ function ShootRow({
         dim ? "opacity-60" : "opacity-100"
       }`}
     >
-      <div className="grid grid-cols-12 gap-4 md:gap-6 items-baseline">
-        <div className="col-span-2 md:col-span-1 mono text-[14px] md:text-[14px] uppercase tracking-[0.28em] tabular opacity-85">
+      <div className="grid grid-cols-12 gap-4 md:gap-6 items-center md:items-baseline">
+        <div className="col-span-2 md:col-span-1 mono text-[14px] md:text-[14px] uppercase tracking-[0.28em] tabular opacity-85 self-start">
           {String(i + 1).padStart(2, "0")}
         </div>
-        <div className="col-span-10 md:col-span-6">
-          <h3 className={`display italic text-[10vw] md:text-[5.5vw] leading-[0.92] tracking-[-0.03em] transition-colors duration-300 ${
+        <div className="col-span-6 md:col-span-6">
+          <h3 className={`display italic text-[9vw] md:text-[5.5vw] leading-[0.92] tracking-[-0.03em] transition-colors duration-300 ${
             active ? "text-[var(--accent)]" : ""
           }`}>
             {shoot.title}
             <span className="text-[var(--accent)]">.</span>
           </h3>
+          <div className="mono text-[14px] uppercase tracking-[0.28em] mt-3 md:hidden">
+            <div className="opacity-100">{shoot.role}</div>
+            <div className="opacity-75 mt-1">{shoot.year} · {shoot.frames.length} frames</div>
+          </div>
         </div>
-        <div className="col-span-6 md:col-span-3 mono text-[14px] uppercase tracking-[0.28em]">
+        {/* mobile thumbnail — right of row */}
+        <div className="col-span-4 md:hidden relative bg-black/30" style={{ aspectRatio: `${shoot.cover.w} / ${shoot.cover.h}` }}>
+          <Image
+            src={shoot.cover.src}
+            alt=""
+            fill
+            sizes="33vw"
+            className="object-cover"
+          />
+        </div>
+        <div className="hidden md:block col-span-3 mono text-[14px] uppercase tracking-[0.28em]">
           <div className="opacity-100">{shoot.role}</div>
           <div className="opacity-75 mt-1">{shoot.year} · {shoot.frames.length} frames</div>
         </div>
