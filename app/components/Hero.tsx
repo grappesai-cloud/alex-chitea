@@ -65,8 +65,7 @@ export default function Hero() {
             playsInline
             disablePictureInPicture
             disableRemotePlayback
-            // @ts-expect-error webkit attr
-            webkit-playsinline="true"
+            {...{ "webkit-playsinline": "true" } as Record<string, string>}
             preload="auto"
             className="block h-[60svh] md:h-[88svh] w-auto max-w-full object-contain bg-black pointer-events-none"
           />
