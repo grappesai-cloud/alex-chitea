@@ -3,15 +3,6 @@ import { PROFILE } from "../data/profile";
 export default function Intro() {
   return (
     <section id="about" className="relative tone-olive px-5 md:px-10 py-20 md:py-28 scroll-mt-16">
-      <div className="flex items-end justify-between mb-10 md:mb-14 reveal">
-        <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-70">
-          02 / Statement
-        </div>
-        <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-60 hidden md:block">
-          pag. 002
-        </div>
-      </div>
-
       <div className="grid grid-cols-12 gap-6 md:gap-10 items-start">
         <div className="col-span-12 md:col-span-6 reveal">
           <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-60 mb-4 flex items-center gap-3">

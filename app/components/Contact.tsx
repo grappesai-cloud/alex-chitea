@@ -3,15 +3,6 @@ import { PROFILE } from "../data/profile";
 export default function Contact() {
   return (
     <section id="contact" className="relative tone-coal px-5 md:px-10 pt-24 md:pt-32 pb-12 overflow-hidden scroll-mt-16">
-      <div className="flex items-end justify-between mb-10 reveal">
-        <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-70">
-          07 / Contact
-        </div>
-        <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-50 hidden md:block">
-          the end
-        </div>
-      </div>
-
       <h3 className="display italic text-[22vw] md:text-[11vw] leading-[0.85] tracking-[-0.035em] reveal">
         Let&rsquo;s talk<span className="text-[var(--accent)]">.</span>
       </h3>

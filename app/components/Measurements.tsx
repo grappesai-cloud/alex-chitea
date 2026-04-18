@@ -3,15 +3,6 @@ import { PROFILE } from "../data/profile";
 export default function Measurements() {
   return (
     <section id="measurements" className="relative tone-coal px-5 md:px-10 py-24 md:py-32 scroll-mt-16">
-      <div className="flex items-end justify-between mb-10 reveal">
-        <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-70">
-          04 / Numbers
-        </div>
-        <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-50 hidden md:block">
-          agency‑verified · April MMXXVI
-        </div>
-      </div>
-
       <div className="grid grid-cols-12 gap-6 items-end">
         <h3 className="col-span-12 md:col-span-8 display italic text-[18vw] md:text-[7.5vw] leading-[0.86] tracking-[-0.04em] reveal">
           The <span className="not-italic text-[var(--accent)]">numbers</span>.

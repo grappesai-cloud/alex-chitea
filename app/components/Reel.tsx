@@ -34,9 +34,6 @@ export default function Reel() {
     <section id="reel" className="tone-wine px-5 md:px-10 py-24 md:py-32 rule-top scroll-mt-16">
       <div className="flex items-end justify-between mb-10 md:mb-16 reveal">
         <div>
-          <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-70 mb-4">
-            05 / Motion
-          </div>
           <h2 className="display italic text-[16vw] md:text-[7.5vw] leading-[0.86] tracking-[-0.04em]">
             In <span className="not-italic text-[var(--accent)]">motion</span>.
           </h2>

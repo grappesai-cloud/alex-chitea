@@ -7,9 +7,6 @@ export default function Clients() {
     <section id="clients" className="tone-bone px-5 md:px-10 py-24 md:py-32 rule-top rule-btm scroll-mt-16">
       <div className="flex items-end justify-between mb-12 reveal">
         <div>
-          <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-70 mb-4">
-            06 / Collaborations
-          </div>
           <h2 className="display italic text-[16vw] md:text-[7.5vw] leading-[0.86] tracking-[-0.04em]">
             The <span className="not-italic text-[var(--accent)]">collab.</span>
           </h2>

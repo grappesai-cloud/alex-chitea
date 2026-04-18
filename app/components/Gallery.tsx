@@ -44,15 +44,6 @@ export default function Gallery() {
 
   return (
     <section id="work" className="px-3 md:px-6 py-16 md:py-24">
-      <div className="px-3 md:px-4 mb-10 md:mb-16 flex items-end justify-between reveal">
-        <div className="mono text-[14px] uppercase tracking-[0.22em] opacity-60">
-          03 / Book — {GALLERY.length} frames
-        </div>
-        <div className="mono text-[14px] uppercase tracking-[0.22em] opacity-60 hidden md:block">
-          Scroll / Click any frame
-        </div>
-      </div>
-
       <div className="space-y-3 md:space-y-5">
         {rows.map((row, ri) => (
           <div key={ri} className="grid grid-cols-12 gap-3 md:gap-5">

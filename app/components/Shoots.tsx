@@ -184,9 +184,6 @@ export default function Shoots() {
     <section id="work" className="relative tone-olive px-5 md:px-10 py-24 md:py-32 rule-top scroll-mt-16">
       <div className="flex items-end justify-between mb-12 reveal">
         <div>
-          <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-70 mb-4">
-            03 / Shoots
-          </div>
           <h2 className="display italic text-[18vw] md:text-[11vw] leading-[0.84] tracking-[-0.035em]">
             Nine <span className="not-italic text-[var(--accent)]">chapters</span>
           </h2>
