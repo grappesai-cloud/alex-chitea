@@ -68,6 +68,8 @@ export default function Gallery() {
                     alt={`Alexandru Chițea — frame ${idx + 1}`}
                     fill
                     sizes={`(max-width: 768px) 100vw, ${(span / 12) * 100}vw`}
+                    quality={65}
+                    loading="lazy"
                     className="object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(.2,.6,.1,1)] group-hover:scale-[1.025]"
                   />
                   <div className="absolute left-3 bottom-3 mono text-[14px] uppercase tracking-[0.2em] text-white mix-blend-difference opacity-0 group-hover:opacity-100 transition">
@@ -115,6 +117,7 @@ export default function Gallery() {
               alt={`frame ${active + 1}`}
               fill
               sizes="92vw"
+              quality={80}
               className="object-contain"
               priority
             />

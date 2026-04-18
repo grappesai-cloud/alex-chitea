@@ -43,6 +43,8 @@ function ShootRow({
             alt=""
             fill
             sizes="33vw"
+            quality={65}
+            loading="lazy"
             className="object-cover"
           />
         </div>
@@ -83,6 +85,7 @@ function HoverPreview({ shoot, visible }: { shoot: Shoot | null; visible: boolea
               alt=""
               fill
               sizes="22vw"
+              quality={65}
               className="object-cover"
             />
           </div>
@@ -163,6 +166,8 @@ function ShootModal({
                   width={f.w}
                   height={f.h}
                   sizes="(max-width: 768px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                  quality={80}
+                  loading="lazy"
                   className="block w-full h-auto"
                 />
               </figure>
