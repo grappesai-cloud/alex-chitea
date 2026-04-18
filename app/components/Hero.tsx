@@ -41,9 +41,6 @@ export default function Hero() {
         {/* LEFT — text */}
         <div className="relative z-20 flex-1 min-w-0 flex flex-col justify-between">
           <div className="flex-1 flex flex-col justify-center">
-            <div className="mono text-[14px] uppercase tracking-[0.3em] opacity-60 mb-5">
-              01 / Portfolio — MMXXVI
-            </div>
             <h1 className="display italic text-[18vw] md:text-[10vw] leading-[0.84] tracking-[-0.035em]">
               Alexandru
               <br />
@@ -54,7 +51,7 @@ export default function Hero() {
         </div>
 
         {/* RIGHT — video, auto-width, full frame visible */}
-        <div className="relative z-10 shrink-0 flex items-center">
+        <div className="relative z-10 shrink-0 flex items-center justify-center self-center md:self-auto">
           <video
             ref={videoRef}
             src={VIDEO}
