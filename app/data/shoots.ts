@@ -107,7 +107,7 @@ export const SHOOTS: Shoot[] = [
     ["Warm", "Natural", "Travel"],
     "Between castings, between cities — loose shirting, direct eye, no styling. Comfort without compromise. The commercial smile.",
     23,
-    pick(23, 24, 31, 83, 84, 85)
+    pick(23, 24)
   ),
   make(
     "linen",
