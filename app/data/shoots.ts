@@ -55,8 +55,8 @@ export const SHOOTS: Shoot[] = [
     "Editorial",
     ["Tailoring", "Low-key", "Noir"],
     "A quiet, after-hours studio set — suited, unsmiling, tuned. Ten frames held in a single temperature.",
-    54,
-    range(54, 63),
+    51,
+    range(51, 60),
     "dark"
   ),
   make(
@@ -68,8 +68,8 @@ export const SHOOTS: Shoot[] = [
     "Lookbook",
     ["Range", "Daylight", "Motion"],
     "The widest chapter in the book — nineteen frames that move from warm afternoon light to night, across looks and moods. Built for editorial yet dressed like catalogue.",
-    37,
-    pick(33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 64, 65, 66, 67, 68, 69, 70)
+    35,
+    pick(32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 61, 62, 63, 64, 65, 66, 67)
   ),
   make(
     "off-duty",
@@ -107,7 +107,7 @@ export const SHOOTS: Shoot[] = [
     ["Warm", "Natural", "Travel"],
     "Between castings, between cities — loose shirting, direct eye, no styling. Comfort without compromise. The commercial smile.",
     23,
-    pick(23, 24, 31, 32, 86, 87, 88)
+    pick(23, 24, 31, 83, 84, 85)
   ),
   make(
     "linen",
@@ -118,8 +118,8 @@ export const SHOOTS: Shoot[] = [
     "Reference",
     ["Bare", "Clean", "Utility"],
     "A tight eight-frame set of reference digitals — plain backdrop, natural light, no styling. Built to read fast.",
-    89,
-    range(89, 96)
+    86,
+    range(86, 92)
   ),
   make(
     "after-hours",
@@ -131,7 +131,7 @@ export const SHOOTS: Shoot[] = [
     ["Candid", "Press", "Misc"],
     "A nineteen-frame archive — mixed looks, dates and cameras, collected at the back of the book as a loose personal cut.",
     1,
-    pick(1, 2, 3, 4, 5, 6, 7, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108),
+    pick(1, 2, 3, 4, 5, 6, 7, 93, 94, 95, 96, 97, 98, 99, 100, 101),
     "dark"
   ),
   make(
@@ -143,8 +143,8 @@ export const SHOOTS: Shoot[] = [
     "Campaign",
     ["Range", "Color", "Movement"],
     "The most complete chapter. Nineteen frames across looks, lights and tempers — from stock‑still to half‑laughing. Proof of range: one face, one book, one full shoot.",
-    77,
-    pick(47, 48, 49, 50, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85),
+    74,
+    pick(44, 45, 46, 47, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82),
     "dark"
   ),
   make(
@@ -156,7 +156,7 @@ export const SHOOTS: Shoot[] = [
     "Agency",
     ["Neutral", "Honest", "Outdoor"],
     "Agency digitals and outdoor tests — five frames the way casting directors want to see them: plain, proportioned, uncropped.",
-    45,
-    pick(45, 46, 51, 52, 53)
+    42,
+    pick(42, 43, 48, 49, 50)
   ),
 ];
