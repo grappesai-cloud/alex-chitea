@@ -52,8 +52,9 @@ const s = StyleSheet.create({
   back: { backgroundColor: "#eceae5", color: "#101010", padding: 28 },
   head: {
     flexDirection: "row", justifyContent: "space-between",
-    fontSize: 7, letterSpacing: 2, textTransform: "uppercase", marginBottom: 10,
+    fontSize: 7, letterSpacing: 2, marginBottom: 10,
   },
+  headName: { fontFamily: "Serif", fontSize: 8, letterSpacing: 1 },
   title: { fontFamily: "Serif", fontSize: 30, letterSpacing: -1, marginBottom: 8 },
   grid: { flexDirection: "row", flexWrap: "wrap", marginBottom: 12 },
   cell: { width: "50%", height: 108, padding: 2 },
@@ -77,8 +78,8 @@ const s = StyleSheet.create({
 const PAGE_SIZE: [number, number] = [396, 612];
 
 function Card() {
-  const cover = abs("/media/gallery/001.jpg");
-  const picks = ["002.jpg", "010.jpg", "040.jpg", "080.jpg"].map((f) => abs(`/media/gallery/${f}`));
+  const cover = abs("/media/gallery/010.jpg");
+  const picks = ["002.jpg", "001.jpg", "040.jpg", "080.jpg"].map((f) => abs(`/media/gallery/${f}`));
   const h = React.createElement;
 
   return h(
@@ -118,8 +119,8 @@ function Card() {
       h(
         View,
         { style: s.head },
-        h(Text, null, "Alexandru Chițea"),
-        h(Text, null, "02 / Back")
+        h(Text, { style: s.headName }, "ALEXANDRU CHIȚEA"),
+        h(Text, null, "02 / BACK")
       ),
       h(Text, { style: s.title }, "Measurements."),
       h(

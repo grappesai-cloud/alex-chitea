@@ -29,8 +29,7 @@ export const PROFILE = {
     "Provmen",
     "Elexus Hotel",
     "Imopresso",
-    "Damao",
-    "Cibran Fashion",
+    "Damao Cibran Fashion",
   ],
   codes: [
     "Calvin Klein",
